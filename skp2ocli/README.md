@@ -3,10 +3,18 @@
 This is a guide for the plugin OGREE Converter for Sketchup PRO 2023
 
 - [OGREE TOOL: Sketchup to OGREE Converter Plugin](#ogree-tool-sketchup-to-ogree-converter-plugin)
+  - [Usage](#usage)
   - [Compile](#compile)
   - [Installation](#installation)
   - [Remove](#remove)
+  - [Code details?](#code-details)
 
+
+## Usage
+After installing the plugin, you simply:
+* Select the entity that you want to know its details
+* Open the drop down menu **Extension** and click **Generate OCLI files** like shown in the image below
+![first step usage](./img/usage-1.png)
 
 ## Compile
 The plugin is written in Ruby, but in order for plugins to be registrable in Sketchup PRO 2023, you **must** compile the code to a **.rbz** compressed file.
@@ -60,3 +68,6 @@ To remove the plugin, simply follow the steps below
 ![second step](./img/installation-2.png)
 3. Click on Manage to change tab
 ![third step](./img/remove-3.png)
+
+## Code details?
+To get details about the code you can check directly the source code which is well documented and you can also check directory **[html page](./doc/index.html)** which contains a webpage that document the different functions and classes implemented.
